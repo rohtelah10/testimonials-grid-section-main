@@ -89,7 +89,7 @@ Error generating stack: `+a.message+`
   grid-column: span ${i=>i.colspan};
 
  
-  background-image: ${i=>i.backgroundimage?"url('/assets/images/bg-pattern-quotation.svg')":"none"}; 
+  background-image: ${i=>i.backgroundimage?"url('/testimonials-grid-section-main/assets/images/bg-pattern-quotation.svg')":"none"}; 
 
   background-position: calc(100% - 80px) 0;  
   background-size: 104px 102px;   
@@ -103,9 +103,9 @@ Error generating stack: `+a.message+`
 
   position: relative;
 
-  @media (max-width: 400px) {
+  /* @media (max-width: 400px) {
     background-image: none
-  }
+  } */
 `,sv=Cl.div`
   height: 30px;
   display: flex;
