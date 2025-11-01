@@ -59,7 +59,7 @@ const DisplayCard = styled.div<{
   grid-column: span ${(props) => props.colspan};
 
  
-  background-image: ${ (props) =>  props.backgroundimage ? "url('/assets/images/bg-pattern-quotation.svg')" : "none" }; 
+  background-image: ${ (props) =>  props.backgroundimage ? "url('/testimonials-grid-section-main/assets/images/bg-pattern-quotation.svg')" : "none" }; 
 
   background-position: calc(100% - 80px) 0;  
   background-size: 104px 102px;   
@@ -74,9 +74,9 @@ const DisplayCard = styled.div<{
 
   position: relative;
 
-  @media (max-width: 400px) {
+  /* @media (max-width: 400px) {
     background-image: none
-  }
+  } */
 `;
 
 const NameCard = styled.div`
